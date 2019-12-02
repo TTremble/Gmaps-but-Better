@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2166377,100,"528","(PORTE DE CLICHY <-> GARE SAINT-LAZARE - ROME) - Aller",,3,,FFFFFF,000000
+2166378,100,"528","(PORTE DE CLICHY <-> GARE SAINT-LAZARE - ROME) - Retour",,3,,FFFFFF,000000

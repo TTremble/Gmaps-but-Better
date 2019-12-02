@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2165799,100,"151","(PORTE DE PANTIN <-> JOUHAUX - BLUM) - Aller",,3,,FFFFFF,000000
+2165800,100,"151","(PORTE DE PANTIN <-> JOUHAUX - BLUM) - Retour",,3,,FFFFFF,000000
+2166367,100,"151","(PORTE DE PANTIN <-> JOUHAUX - BLUM (SANS JANE JOYE)) - Aller",,3,,FFFFFF,000000
+2166368,100,"151","(PORTE DE PANTIN <-> JOUHAUX - BLUM (SANS JANE JOYE)) - Retour",,3,,FFFFFF,000000

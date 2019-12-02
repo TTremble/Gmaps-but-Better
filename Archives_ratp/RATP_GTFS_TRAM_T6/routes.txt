@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1463791,100,"T6","(CHATILLON - MONTROUGE <-> VIROFLAY - RIVE DROITE) - Aller",,0,,FFFFFF,000000
+1463792,100,"T6","(CHATILLON - MONTROUGE <-> VIROFLAY - RIVE DROITE) - Retour",,0,,FFFFFF,000000

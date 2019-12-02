@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2013294,100,"24","(PANTHEON <-> (ECOLE VETERINAIRE)) - Retour",,3,,FFFFFF,000000
+2013295,100,"24","((PANTHEON) <-> ECOLE VETERINAIRE DE MAISONS-ALFORT) - Aller",,3,,FFFFFF,000000

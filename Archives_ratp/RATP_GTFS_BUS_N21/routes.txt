@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2166229,100,"N21","(HOPITAL DE LONGJUMEAU <-> CHATELET) - Aller",,3,,FFFFFF,000000
+2166230,100,"N21","(HOPITAL DE LONGJUMEAU <-> CHATELET) - Retour",,3,,FFFFFF,000000
+2166245,100,"N21","(HOPITAL DE LONGJUMEAU <-> GARE MONTPARNASSE) - Aller",,3,,FFFFFF,000000
+2166246,100,"N21","(HOPITAL DE LONGJUMEAU <-> GARE MONTPARNASSE) - Retour",,3,,FFFFFF,000000

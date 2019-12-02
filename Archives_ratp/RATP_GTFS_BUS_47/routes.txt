@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2017864,100,"47","(LE KREMLIN-BICETRE-METRO <-> CHATELET) - Retour",,3,,FFFFFF,000000
+2017867,100,"47","(GARE DE L'EST <-> LE KREMLIN-BICETRE-METRO) - Aller",,3,,FFFFFF,000000
+2166343,100,"47","(FORT DU KREMLIN-BICETRE <-> CHATELET) - Aller",,3,,FFFFFF,000000
+2166344,100,"47","(FORT DU KREMLIN-BICETRE <-> CHATELET) - Retour",,3,,FFFFFF,000000

@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2028664,100,"T3B","(PORTE DE VINCENNES <-> PORTE D'ASNIERES - MARGUERITE LONG) - Aller",,0,,FFFFFF,000000
+2028665,100,"T3B","(PORTE DE VINCENNES <-> PORTE D'ASNIERES - MARGUERITE LONG) - Retour",,0,,FFFFFF,000000

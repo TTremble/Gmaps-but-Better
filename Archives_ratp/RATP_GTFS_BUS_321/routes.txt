@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1834587,100,"321","(LOGNES RER <-> AERODROME DE LOGNES) - Retour",,3,,FFFFFF,000000
+2166161,100,"321","(LOGNES RER <-> AERODROME DE LOGNES) - Aller",,3,,FFFFFF,000000
+2166162,100,"321","(LOGNES RER <-> AERODROME DE LOGNES) - Retour",,3,,FFFFFF,000000
+2166239,100,"321","(LOGNES RER <-> TORCY RER) - Aller",,3,,FFFFFF,000000
+2166240,100,"321","(LOGNES RER <-> TORCY RER) - Retour",,3,,FFFFFF,000000

@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1925095,100,"V2","(DOMAINE CHERIOUX <-> PASTEUR) - Aller",,3,,FFFFFF,000000
+2165973,100,"V2","(PASTEUR <-> DOMAINE CHERIOUX) - Aller",,3,,FFFFFF,000000
+2165974,100,"V2","(PASTEUR <-> DOMAINE CHERIOUX) - Retour",,3,,FFFFFF,000000

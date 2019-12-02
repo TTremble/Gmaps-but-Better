@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2166235,100,"N71","(MARCHE INTERNATIONAL DE RUNGIS <-> VAL DE FONTENAY RER) - Aller",,3,,FFFFFF,000000
+2166236,100,"N71","(MARCHE INTERNATIONAL DE RUNGIS <-> VAL DE FONTENAY RER) - Retour",,3,,FFFFFF,000000

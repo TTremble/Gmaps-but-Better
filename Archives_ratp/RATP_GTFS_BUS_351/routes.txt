@@ -1,0 +1,7 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1631787,100,"351","(NATION <-> ROISSYPOLE) - Aller",,3,,FFFFFF,000000
+1631790,100,"351","(NATION <-> ROISSYPOLE) - Aller",,3,,FFFFFF,000000
+1767355,100,"351","(NATION <-> ROISSYPOLE) - Aller",,3,,FFFFFF,000000
+1767356,100,"351","(NATION <-> ROISSYPOLE) - Aller",,3,,FFFFFF,000000
+1796401,100,"351","(NATION <-> ROISSYPOLE) - Retour",,3,,FFFFFF,000000
+1822326,100,"351","(NATION <-> ROISSYPOLE) - Retour",,3,,FFFFFF,000000
