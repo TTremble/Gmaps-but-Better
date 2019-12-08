@@ -8,11 +8,14 @@ void lecture(FILE *fichier, char *str)
 {
     char d ;
     int num_arret  ;
+    char *station =malloc(30* sizeof(char)) ;
+    if (station== NULL) 
+    {
+        exit(0); 
+    }
     while ((d = fgetc(fichier)) != '\n')
         {
             //printf("%d", d); On saute la première ligne
         }
-        printf("\n") ;
-        fscanf(fichier,"%d",&num_arret) ;
-        printf("%d\n",num_arret);
+        
 }
