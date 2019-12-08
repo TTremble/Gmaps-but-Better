@@ -7,11 +7,10 @@
 #define IN_FILE_ERROR 2
 #define OUT_FILE_ERROR 3
 #define OTHER_ERRORS 4
-#define TAILLE_MAX 100000
+#define TAILLE_MAX 100
 
 int main(void) 
 {   
-    unsigned long num_arret ;
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
@@ -94,11 +93,11 @@ int main(void)
             FILE *fichier_calendar_dates = NULL ;
             fichier_stop = fopen(fichier_stop_nom, "r+") ;
             fichier_stop_times = fopen(fichier_stop_time_nom, "r+") ;
-            fichier_transfers = fopen(fichier_stop_nom, "r+") ;
-            fichier_agency= fopen(fichier_stop_nom, "r+") ;
-            fichier_routes = fopen(fichier_stop_nom, "r+") ;
-            fichier_trips_nom = fopen(fichier_stop_nom, "r+") ;
-            fichier_calendar_dates = fopen(fichier_stop_nom, "r+") ;*/
+            fichier_transfers = fopen(fichier_transfer_nom, "r+") ;
+            fichier_agency= fopen(fichier_agency_nom, "r+") ;
+            fichier_routes = fopen(fichier_routes_nom, "r+") ;
+            fichier_trips = fopen(fichier_trips_nom, "r+") ;
+            fichier_calendar_dates = fopen(fichier_calendar_dates_nom, "r+") ;
             printf("%s\n",fichier_stop_nom);
             if ((fichier_stop == NULL))
             {   
@@ -108,20 +107,11 @@ int main(void)
             else
             {
                 printf("le fichier est ouvert\n") ;
-                char chaine[TAILLE_MAX] = ""; // Chaîne vide de taille TAILLE_MAX
-                fgets(chaine, TAILLE_MAX, fichier_stop); // On lit maximum TAILLE_MAX caractères du fichier, on stocke le tout dans "chaine"
-                printf("%s", chaine); // On affiche la chaîne
-                /*int nb = fscanf(fichier_stop,"%hi",num_arret) ;
-                //while ((nb!= ',') && (nb!= 0))
-                printf("%hn\n", num_arret);
-                free(num_arret) ;*/
             }
         }
         compteur = compteur + 1 ;
-        printf("%i\n",compteur);
         if (compteur == 367)
         {
-            printf("travail terminé") ;
             free(fichier_stop_time_nom) ;
             return 0;
         }
