@@ -27,12 +27,40 @@ int main(void)
     // for readdir() 
     int compteur = 0 ;
     char *fichier_stop_nom =malloc(256* sizeof(char)) ;
+    if (fichier_stop_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_stop_time_nom =malloc(256* sizeof(char)) ;
+    if (fichier_stop_time_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_transfer_nom =malloc(256* sizeof(char)) ;
+    if (fichier_transfer_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_agency_nom =malloc(256* sizeof(char)) ;
+    if (fichier_agency_nom== NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_routes_nom =malloc(256* sizeof(char)) ;
+    if (fichier_routes_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_trips_nom =malloc(256* sizeof(char)) ;
+    if (fichier_trips_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char *fichier_calendar_dates_nom =malloc(256* sizeof(char)) ;
+    if (fichier_calendar_dates_nom == NULL) // Si l'allocation a échoué
+    {
+        exit(0); // On arrête immédiatement le programme
+    }
     char chaine[TAILLE_MAX] = "";
     while ((de = readdir(dr)) != NULL) 
     {    
