@@ -2,8 +2,8 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
-
-#define IN_FILE_ERROR 1
+#include "lecture.h"
+#define IN_FILE_ERROR 1 
 
 int main(void) 
 {   
@@ -20,7 +20,7 @@ int main(void)
   
     // Refer http://pubs.opengroup.org/onlinepubs/7990989775/xsh/readdir.html 
     // for readdir() 
-    int compteur = 0 ;
+    int nombre_de_transports = -1 ;
     char *fichier_stop_nom =malloc(256* sizeof(char)) ;
     if (fichier_stop_nom == NULL) // Si l'allocation a échoué
     {
@@ -75,7 +75,7 @@ int main(void)
         char* extension5 = "/routes.txt" ;
         char* extension6 = "/trips.txt" ;
         char* extension7 = "/calendar_dates.txt" ;
-        if (compteur > 1 )
+        if (nombre_de_transports > 0 )
         {
             //strcat(fichier_dans_Archives_ratp,extension1) ;
             //printf("%s\n",fichier_dans_Archives_ratp);
@@ -117,14 +117,15 @@ int main(void)
             else
             {
                 printf("le fichier est ouvert\n") ;
-                char d ;
+                lecture_fichier_stop_times(fichier_stop_times) ;
+                /*char d ;
                 while ((d = fgetc(fichier_stop_times)) != '\n')
                     {
                         //printf("%d", d); On saute la première ligne
                     }
-                int nb = 1 ;
                 int compteur_ligne = 0 ;
-                while (compteur_ligne < 10)
+                long trip_id;
+                while (1 > 0)
                 {
                     long trip_id ;
                     int heure ;
@@ -133,40 +134,39 @@ int main(void)
                     long stop_id;
                     int stop_sequence ;
                     int temps_en_minutes ;
-                    int nb = fscanf(fichier_stop_times,"%ld",&trip_id) ;
-                    printf("%ld\n",trip_id);
+                    if (fscanf(fichier_stop_times,"%ld",&trip_id) == EOF)
+                    {
+                        break ;
+                    }
+                    //printf("%ld\n",trip_id);
                     fscanf(fichier_stop_times,",%d:",&heure) ;
                     fscanf(fichier_stop_times,"%d:",&minutes) ;
                     fscanf(fichier_stop_times,"%d,",&seconde) ;
                     // On le double pour déplacé le curseur et on chage pas les variable puisque temps_arrivé = temps_depart 
                     fscanf(fichier_stop_times,"%d:",&heure) ;
-                    printf("%d\n",heure);
+                    //printf("%d\n",heure);
                     fscanf(fichier_stop_times,"%d:",&minutes) ;
-                    printf("%d\n",minutes);
+                    //printf("%d\n",minutes);
                     fscanf(fichier_stop_times,"%d,",&seconde) ;
                     fscanf(fichier_stop_times, "%ld",&stop_id);
-                    printf("%ld\n",stop_id);
+                    //printf("%ld\n",stop_id);
                     fscanf(fichier_stop_times, ",%d,",&stop_sequence);
-                    printf("%d\n",stop_sequence);
+                    //printf("%d\n",stop_sequence);
                     temps_en_minutes = heure*60 + minutes ;
                     //printf("%d\n", temps_en_minutes) ;
-                    printf("**********************************\n") ;
+                    //printf("**********************************\n") ;
                     // On se remet au debut de la ligne
                     while ((d = fgetc(fichier_stop_times)) != '\n')
                     {
                     //printf("%d", d); On saute la ligne
                     }
                     compteur_ligne ++ ;
-                }
+                    //printf(" %d\n", compteur_ligne);
+                }*/
 
             }
         }
-        compteur = compteur + 1 ;
-        if (compteur == 367)
-        {
-            free(fichier_stop_time_nom) ;
-            return 0;
-        }
+        nombre_de_transports = nombre_de_transports + 1 ;
     }
     free(fichier_stop_time_nom) ;
     free(fichier_agency_nom) ;
