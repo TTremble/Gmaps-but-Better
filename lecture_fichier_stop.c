@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "lecture.h"
 
-void lecture_fichier_stop(station*reseau)
+void lecture_fichier_stop(FILE * fichier)
 {
     char d ;
     int num_arret  ;

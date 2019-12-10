@@ -5,8 +5,8 @@
 #include "lecture.h"
 #define IN_FILE_ERROR 1 
 
-int ouverture_text_par_ligne(int numero_du_fichier)
-{   
+int ouverture_text_stop_par_ligne(int numero_du_fichier)
+{    
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
@@ -107,7 +107,7 @@ int ouverture_text_par_ligne(int numero_du_fichier)
             fichier_trips = fopen(fichier_trips_nom, "r+") ;
             fichier_calendar_dates = fopen(fichier_calendar_dates_nom, "r+") ;
             printf("%s\n",fichier_stop_time_nom);
-            if ((fichier_stop_times == NULL))
+            if ((fichier_stop == NULL))
             {   
                 printf("Erreur : mauvais chemin pour le fichier d'entree.\n");
                 return (IN_FILE_ERROR);
@@ -116,6 +116,7 @@ int ouverture_text_par_ligne(int numero_du_fichier)
             {
                 printf("le fichier est ouvert\n") ;
                 lecture_fichier_stop_times(fichier_stop_times) ;
+                return fichier_stop ;
             }
         }
         nombre_de_transports ++ ;
@@ -128,5 +129,5 @@ int ouverture_text_par_ligne(int numero_du_fichier)
     free(fichier_routes_nom) ;
     free(fichier_calendar_dates_nom) ;
     closedir(dr);     
-    return 0; 
+
 }

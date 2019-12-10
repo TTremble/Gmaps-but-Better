@@ -3,14 +3,15 @@
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
+#include "station.h"
 
-void lecture_fichier_stop(station*reseau)
+void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
 {
     char d ;
+    char adresse[100] ;
     int i = 0 ;
     int max = nombre_de_transports() ;
     while (i < max)
-    ouverture_text_par_ligne(i) ;
     if (station == NULL) 
     {
         exit(0); 
@@ -22,15 +23,15 @@ void lecture_fichier_stop(station*reseau)
         }
     while (1 > 0)
     {
-        if (fscanf(fichier_stop,"%d",== EOF))
+        if (fscanf(fichier_stop,"%d",reseau[i]->id ) == EOF)// un de trop pbm à régler
         {
             break ;
         }
-        fscanf(fichier_stop," %*s %99[^\"]",reseau[i]->id);
-        fscanf(fichier_stop," ,, \" %*s %99[^\"]",reseau[i]->name);
-        fscanf(fichier,"%ld",reseau[i]->lon) ;
-        fscanf(fichier,"%ld",reseau[i]->lat) ;
-        while ((d = fgetc(fichier)) != '\n')
+        fscanf(fichier_stop," %*s %99[^\"]",reseau[i]->name);
+        fscanf(fichier_stop," ,, \" %*s %99[^\"]",adresse);
+        fscanf(fichier_stop,"%ld",reseau[i]->lon) ;
+        fscanf(fichier_stop,"%ld",reseau[i]->lat) ;
+        while ((d = fgetc(fichier_stop)) != '\n')
         {
             //On vient a la fin de la ligne
         }
