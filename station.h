@@ -1,3 +1,4 @@
+#include "lecture.h"
 struct station{
     char * stop_name;
     int stop_id;
