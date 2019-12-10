@@ -14,14 +14,15 @@ void lecture_fichier_stop_times(FILE *fichier)
         }
     int compteur_ligne = 0 ;
     long trip_id;
+    int heure ;
+    int minutes ;
+    int seconde ;
+    long stop_id;
+    int stop_sequence ;
+    int temps_en_minutes ;
+
     while (1 > 0)
     {
-        int heure ;
-        int minutes ;
-        int seconde ;
-        long stop_id;
-        int stop_sequence ;
-        int temps_en_minutes ;
         if (fscanf(fichier,"%ld",&trip_id) == EOF)
             {
                 break ;
@@ -38,7 +39,7 @@ void lecture_fichier_stop_times(FILE *fichier)
         temps_en_minutes = heure*60 + minutes ;
         while ((d = fgetc(fichier)) != '\n')
             {
-                //On saute la ligne
+                //On vient à la fin de la ligne
             }
         compteur_ligne ++ ;
     }      

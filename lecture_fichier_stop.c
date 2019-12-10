@@ -4,25 +4,34 @@
 #include <stdlib.h>
 #include "lecture.h"
 
-void lecture_fichier_stop(FILE *fichier)
+void lecture_fichier_stop(station*reseau)
 {
     char d ;
     int num_arret  ;
+    long stop_lat ;
+    long stop_lon ;
     char *station = malloc(50* sizeof(char)) ;
     char *adresse = malloc(50* sizeof(char)) ;
     if (station == NULL) 
     {
         exit(0); 
     }
-    while ((d = fgetc(fichier)) != '\n')
+    while ((d = fgetc(lecture_fichier_stop)) != '\n')
         {
             //On saute la première ligne
         }
-        fscanf(fichier,"%d",&num_arret) ;
+    while (1 > 0)
+    {
+        if (fscanf(lecture_fichier_stop,"%d",&num_arret == EOF))
+        {
+            break ;
+        }
         fscanf(fichier," %*s %99[^\"]",station);
-        printf("%d\n",num_arret);
-        printf("%s\n",station);
-        //fscanf(fichier,"%d",&trip_id) ;
-        //printf("%d\n",trip_id);
-        fscanf(fichier_stop," %*s %99[^\"]",station);
-        //fscanf(fichier_stop," %*s %99[^\"]",station);
+        fscanf(fichier," ,, \" %*s %99[^\"]",adresse);
+        fscanf(fichier,"%ld",&stop_lat) ;
+        fscanf(fichier,"%ld",&stop_lon) ;
+        while ((d = fgetc(fichier)) != '\n')
+        {
+            //On vient a la fin de la ligne
+        }
+    }

@@ -5,9 +5,10 @@
 #include "lecture.h"
 #define IN_FILE_ERROR 1 
 
-int main(void) 
+int ouverture_text_par_ligne(int numero_du_fichier)
 {   
     struct dirent *de;  // Pointer for directory entry 
+  
     // opendir() returns a pointer of DIR type.  
     DIR *dr = opendir("/home/zeqa/Projet_graphe/Archives_ratp"); 
   
@@ -15,8 +16,9 @@ int main(void)
     { 
         printf("Could not open current directory" ); 
         return 0; 
-    }  
-    int nombre_de_transports = -1 ;
+    }
+    int nombre_de_transports ;  
+    numero_du_fichier = numero_du_fichier-1 ;
     char *fichier_stop_nom =malloc(256* sizeof(char)) ;
     if (fichier_stop_nom == NULL) // Si l'allocation a échoué
     {
@@ -71,8 +73,10 @@ int main(void)
         char* extension5 = "/routes.txt" ;
         char* extension6 = "/trips.txt" ;
         char* extension7 = "/calendar_dates.txt" ;
-        if (nombre_de_transports > 0 )
+        if (numero_du_fichier == nombre_de_transports )
         {
+            //strcat(fichier_dans_Archives_ratp,extension1) ;
+            //printf("%s\n",fichier_dans_Archives_ratp);
             strcat(fichier_stop_nom,fichier_dans_Archives_ratp) ;
             strcat(fichier_stop_time_nom,fichier_dans_Archives_ratp) ;
             strcat(fichier_routes_nom,fichier_dans_Archives_ratp) ;
@@ -114,7 +118,8 @@ int main(void)
                 lecture_fichier_stop_times(fichier_stop_times) ;
             }
         }
-        nombre_de_transports = nombre_de_transports + 1 ;
+        nombre_de_transports ++ ;
+        printf(nombre_de_transports);
     }
     free(fichier_stop_time_nom) ;
     free(fichier_agency_nom) ;
