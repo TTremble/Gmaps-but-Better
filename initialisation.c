@@ -21,11 +21,11 @@ int initialisation(void){
       printf("ERROR MALLOC");
       free(reseau);
       free(stop_times);
-      return 1
+      return 1;
     }
-    ini_stations(reseau);
-    ini_times(stop_times);
-    ini_trip(trips);
+    initialisation_stop_graphe(reseau);
+    initialisation_time_graphe(stop_times);
+    initialisation_trips_graphe(trips);
     }
-    return 0
+    return 0;
 }
