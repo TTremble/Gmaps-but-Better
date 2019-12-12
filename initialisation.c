@@ -26,6 +26,5 @@ int initialisation(void){
     initialisation_stop_graphe(reseau);
     initialisation_time_graphe(stop_times);
     initialisation_trips_graphe(trips);
-    }
     return 0;
-}
+  }
