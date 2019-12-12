@@ -18,9 +18,10 @@ void lecture_fichier_stop_times()
     int temps_en_minutes ;
     int i = 0 ;
     int max = nombre_de_transports() ;
+    FILE * fichier = NULL ;
     while (i < max)
     {
-        FILE* fichier = ouverture_stop_time_par_ligne(i) ;
+        FILE* fichier = ouverture_stop_times_par_ligne(i) ;
         while ((d = fgetc(fichier)) != '\n')
             {
                 //On saute la première ligne
@@ -41,6 +42,7 @@ void lecture_fichier_stop_times()
             fscanf(fichier, "%ld",&stop_id);
             fscanf(fichier, ",%d,",&stop_sequence);
             temps_en_minutes = heure*60 + minutes ;
+            printf("%d", temps_en_minutes) ;
             while ((d = fgetc(fichier)) != '\n')
                 {
                     //On vient à la fin de la ligne

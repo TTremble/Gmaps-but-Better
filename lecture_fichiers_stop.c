@@ -19,11 +19,12 @@ void lecture_fichier_stop()
     int id ;
     long double lat ;
     long double lon ;
+    FILE* fichier_stop = NULL ;
     int max = nombre_de_transports() ;
 
     while (i < max)
     {
-        FILE* fichier_stop = ouverture_stop_time_par_ligne(i) ;
+        FILE* fichier_stop = ouverture_stop_par_ligne(i) ;
         while ((d = fgetc(fichier_stop)) != '\n')
             {
                 //On saute la première ligne
@@ -43,8 +44,8 @@ void lecture_fichier_stop()
             fgetc(fichier_stop) ;
             fscanf(fichier_stop,"%99[^\"]",adresse);
             // On lit la longitude et latitude
-            fscanf(fichier_stop,"%ld",&lon) ;
-            fscanf(fichier_stop,"%ld",&lat) ;
+            fscanf(fichier_stop,"%Le",&lon) ;
+            fscanf(fichier_stop,"%Le",&lat) ;
             while ((d = fgetc(fichier_stop)) != '\n')
             {
             //On vient a la fin de la ligne

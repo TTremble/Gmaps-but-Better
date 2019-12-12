@@ -7,7 +7,7 @@
 
 int nombre_de_transports()
 {   
-    int nombre_de_transports = 0 ;
+    int nombre_de_transport = 0 ;
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
@@ -20,8 +20,8 @@ int nombre_de_transports()
     }
     while ((de = readdir(dr)) != NULL)     // Refer http://pubs.opengroup.org/onlinepubs/7990989775/xsh/readdir.html for readdir()
     {   
-        nombre_de_transports ++ ;
+        nombre_de_transport ++ ;
     }
-    printf("%d",nombre_de_transports - 2);
-    return(nombre_de_transports - 2) ;
+    printf("%d",nombre_de_transport - 2);
+    return(nombre_de_transport - 2) ;
 }

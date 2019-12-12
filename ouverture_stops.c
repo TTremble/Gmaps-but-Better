@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
-#include "station.h"
 #define IN_FILE_ERROR 1 
 
 FILE* ouverture_stop_par_ligne(int numero_du_fichier)
@@ -18,7 +17,7 @@ FILE* ouverture_stop_par_ligne(int numero_du_fichier)
         printf("Could not open current directory" ); 
         exit(0); 
     }
-    int nombre_de_transports = 0 ;  
+    int nombre_de_transports = 0 ; 
     numero_du_fichier = numero_du_fichier + 1 ;
     char *fichier_stop_nom =malloc(256* sizeof(char)) ;
     if (fichier_stop_nom == NULL) // Si l'allocation a échoué
@@ -40,7 +39,7 @@ FILE* ouverture_stop_par_ligne(int numero_du_fichier)
             if ((fichier_stop == NULL))
             {   
                 printf("Erreur : mauvais chemin pour le fichier d'entree.\n");
-                return (IN_FILE_ERROR);
+                exit(0);
             }
             else
             {

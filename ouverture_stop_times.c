@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
-#include "station.h"
 #define IN_FILE_ERROR 1 
 
 FILE* ouverture_stop_times_par_ligne(int numero_du_fichier)
@@ -11,14 +10,14 @@ FILE* ouverture_stop_times_par_ligne(int numero_du_fichier)
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
-    DIR *dr = opendir("/home/zeqa/Projet_graphe/Archives_ratp"); 
+    DIR *dr = opendir("Archives_ratp"); 
   
     if (dr == NULL)  // exit si on ne peut pas ouvrir le dossier
     { 
         printf("Could not open current directory" ); 
         exit(0); 
     }
-    int nombre_de_transports ;
+    int nombre_de_transports = 0 ;
     numero_du_fichier = numero_du_fichier-1 ;
     char *fichier_stop_time_nom =malloc(256* sizeof(char)) ;
     if (fichier_stop_time_nom == NULL) 
@@ -37,7 +36,6 @@ FILE* ouverture_stop_times_par_ligne(int numero_du_fichier)
             strcat(fichier_stop_time_nom,extension) ;
             FILE *fichier_stop_times = NULL ;
             fichier_stop_times = fopen(fichier_stop_time_nom, "r+") ;
-            printf("%s\n",fichier_stop_time_nom);
             if ((fichier_stop_times == NULL))
             {   
                 printf("Erreur : mauvais chemin pour le fichier d'entree.\n");

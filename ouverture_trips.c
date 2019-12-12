@@ -3,7 +3,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
-#include "station.h"
 #define IN_FILE_ERROR 1 
 
 FILE* ouverture_trips_par_ligne(int numero_du_fichier)
@@ -40,7 +39,7 @@ FILE* ouverture_trips_par_ligne(int numero_du_fichier)
             if ((fichier_trips == NULL))
             {   
                 printf("Erreur : mauvais chemin pour le fichier d'entree.\n");
-                return (IN_FILE_ERROR);
+                exit(0);
             }
             else
             {
