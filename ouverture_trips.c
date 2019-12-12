@@ -12,10 +12,10 @@ FILE* ouverture_trips_par_ligne(int numero_du_fichier)
     // opendir() returns a pointer of DIR type.  
     DIR *dr = opendir("Archives_ratp"); 
   
-    if (dr == NULL)  // opendir returns NULL if couldn't open directory 
+    if (dr == NULL)  // exit si on ne peut pas ouvrir le dossier
     { 
         printf("Could not open current directory" ); 
-        return 0; 
+        exit(0); 
     }
     int nombre_de_transports = 0 ;  
     numero_du_fichier = numero_du_fichier + 1 ;
