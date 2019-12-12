@@ -11,7 +11,7 @@ int nombre_de_transports()
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
-    DIR *dr = opendir("/home/zeqa/Projet_graphe/Archives_ratp"); 
+    DIR *dr = opendir("Archives_ratp"); 
   
     if (dr == NULL)  // opendir returns NULL if couldn't open directory 
     { 
@@ -22,4 +22,6 @@ int nombre_de_transports()
     {   
         nombre_de_transports ++ ;
     }
-    return(nombre_de_transports - 1) ;
+    printf("%d",nombre_de_transports - 2);
+    return(nombre_de_transports - 2) ;
+}
