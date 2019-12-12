@@ -5,7 +5,7 @@
 #include "lecture.h"
 #include "station.h"
 
-void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times *reseau)
+void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times*stop_times)
 {
     char d ;
     int compteur_ligne = 0 ;
