@@ -2,7 +2,7 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
-#include "lecture.h"
+#include <lecture.h>
 
 
 void lecture_fichier_stop_times()
@@ -17,7 +17,7 @@ void lecture_fichier_stop_times()
     int stop_sequence ;
     int temps_en_minutes ;
     int i = 0 ;
-    int max = nombre_de_transports ;
+    int max = nombre_de_transports() ;
     while (i < max)
     {
         FILE* fichier = ouverture_stop_time_par_ligne(i) ;

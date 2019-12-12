@@ -13,4 +13,5 @@ void initialisation_stop_graphe(reseau)
     FILE* fichier_stop = ouverture_text_stop_par_ligne(i) ;
     init_fichier_stop_one_file(fichier_stop,reseau) ;
     i++ ;
+    }
 }
