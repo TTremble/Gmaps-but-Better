@@ -5,7 +5,7 @@
 #include "station.h"
 #include "lecture.h"
 
-void init_fichier_trips_one_file(FILE* fichier_trips, station *reseau)
+void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
 {
     char d ;
     long route_id ;
