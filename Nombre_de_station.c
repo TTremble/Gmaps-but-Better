@@ -2,11 +2,10 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
-//#include "lecture.h"
+#include "lecture.h"
 #define IN_FILE_ERROR 1 
 
-//int nombre_de_transports()
-int main(void)
+int nombre_de_transports()
 {   
     int nombre_de_transports = 0 ;
     struct dirent *de;  // Pointer for directory entry 

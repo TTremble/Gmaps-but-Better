@@ -10,15 +10,15 @@ FILE* ouverture_stop_par_ligne(int numero_du_fichier)
     struct dirent *de;  // Pointer for directory entry 
   
     // opendir() returns a pointer of DIR type.  
-    DIR *dr = opendir("/home/zeqa/Projet_graphe/Archives_ratp"); 
+    DIR *dr = opendir("Archives_ratp"); 
   
     if (dr == NULL)  // opendir returns NULL if couldn't open directory 
     { 
         printf("Could not open current directory" ); 
         return 0; 
     }
-    int nombre_de_transports ;  
-    numero_du_fichier = numero_du_fichier - 1 ;
+    int nombre_de_transports = 0 ;  
+    numero_du_fichier = numero_du_fichier + 1 ;
     char *fichier_stop_nom =malloc(256* sizeof(char)) ;
     if (fichier_stop_nom == NULL) // Si l'allocation a échoué
     {
