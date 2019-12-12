@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165823,100,"125","(PORTE D'ORLEANS-METRO <-> ECOLE VETERINAIRE DE MAISON-ALFORT) - Aller",,3,,FFFFFF,000000
-2165824,100,"125","(PORTE D'ORLEANS-METRO <-> ECOLE VETERINAIRE DE MAISON-ALFORT) - Retour",,3,,FFFFFF,000000

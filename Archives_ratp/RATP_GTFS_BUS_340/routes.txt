@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165865,100,"340","(HOPITAL BEAUJON <-> GABRIEL PERI-METRO) - Aller",,3,,FFFFFF,000000
-2165866,100,"340","(HOPITAL BEAUJON <-> GABRIEL PERI-METRO) - Retour",,3,,FFFFFF,000000
-2165867,100,"340","(BERGES DE SEINE <-> GARE D'ARGENTEUIL) - Aller",,3,,FFFFFF,000000
-2165868,100,"340","(BERGES DE SEINE <-> GARE D'ARGENTEUIL) - Retour",,3,,FFFFFF,000000

@@ -1,4 +1,0 @@
-service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
-2975992,0,0,0,0,0,0,0,20191104,20191220
-2975993,0,0,0,0,0,0,0,20191029,20191231
-2975994,0,0,0,0,0,0,0,20191102,20191228

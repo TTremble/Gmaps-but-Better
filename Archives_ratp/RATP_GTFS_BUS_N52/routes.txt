@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2166231,100,"N52","(GARE DE CORMEILLES-EN-PARISIS <-> GARE SAINT LAZARE) - Aller",,3,,FFFFFF,000000
-2166232,100,"N52","(GARE DE CORMEILLES-EN-PARISIS <-> GARE SAINT LAZARE) - Retour",,3,,FFFFFF,000000

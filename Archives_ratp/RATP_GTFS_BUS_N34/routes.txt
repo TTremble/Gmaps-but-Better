@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1713766,100,"N34","(TORCY-RER <-> GARE DE LYON) - Retour",,3,,FFFFFF,000000
-2068141,100,"N34","(GARE DE LYON <-> TORCY-RER) - Aller",,3,,FFFFFF,000000

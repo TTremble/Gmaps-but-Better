@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165993,100,"306","(SAINT MAUR-CRETEIL-RER <-> NOISY LE GRAND-MONT D'EST-RER) - Aller",,3,,FFFFFF,000000
-2165994,100,"306","(SAINT MAUR-CRETEIL-RER <-> NOISY LE GRAND-MONT D'EST-RER) - Retour",,3,,FFFFFF,000000

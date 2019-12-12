@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165857,100,"140","(GABRIEL PERI-METRO <-> GARE D'ARGENTEUIL) - Aller",,3,,FFFFFF,000000
-2165858,100,"140","(GABRIEL PERI-METRO <-> GARE D'ARGENTEUIL) - Retour",,3,,FFFFFF,000000
-2165859,100,"140","(GABRIEL PERI-METRO <-> GARE D'ARGENTEUIL) - Aller",,3,,FFFFFF,000000
-2165860,100,"140","(GABRIEL PERI-METRO <-> GARE D'ARGENTEUIL) - Retour",,3,,FFFFFF,000000
