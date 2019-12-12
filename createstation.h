@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"station.h"
 
-station createstation(char * name,int id,int lat,int lon){
+station createstation(char * name,int id,long lat,long lon){
   station new;
   new->stop_id = id;
   new->stop_lat = lat;
