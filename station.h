@@ -1,4 +1,3 @@
-#include "lecture.h"
 struct station{
     char * name;
     int id;
