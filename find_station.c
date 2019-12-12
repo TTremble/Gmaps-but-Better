@@ -6,9 +6,9 @@ station find_station(int id_search,station * reseau){
     if(reseau[i]->id=id_search){
       return reseau[i];
     }
-  }
-  else{
-    printf("ERROR NON EXISTANT");
+    else{
+      printf("ERROR NON EXISTANT");
+    }
   }
   return NULL;
 }

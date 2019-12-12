@@ -2,7 +2,7 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
-#include <lecture.h>
+#include "lecture.h"
 
 
 void lecture_fichier_stop_times()
