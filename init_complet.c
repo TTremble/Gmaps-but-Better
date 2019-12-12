@@ -2,6 +2,7 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
+#include "station.h"
 #include "lecture.h"
 
 void initialisation_stop_graphe(reseau)

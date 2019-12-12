@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
+#include "station.h"
 #define IN_FILE_ERROR 1 
 
 FILE* ouverture_trips_par_ligne(int numero_du_fichier)
