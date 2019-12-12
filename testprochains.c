@@ -6,8 +6,17 @@
 
 int main(void){
   station * reseau=malloc(25479*sizeof(station));
+  if(reseau==NULL){
+    printf("ERREUR MALLOC");
+    return 1;
+  }
   char * nom;
   int * ar=malloc(25479*sizeof(int));
+  if(ar==NULL){
+    printf("ERREUR MALLOC");
+    free(reseau);
+    return 1;
+  }
   for(int i=0;i<25479;i++){
     ar[i]=0;
   }
