@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1964465,100,"255","((PORTE DE CLIGNANCOURT - STAINS) <-> LES PREVOYANTS) - Aller",,3,,FFFFFF,000000
+2178916,100,"255","(PORTE DE CLIGNANCOURT <-> ROND-POINT DE LA LUTECE) - Aller",,3,,FFFFFF,000000
+2178917,100,"255","(PORTE DE CLIGNANCOURT <-> ROND-POINT DE LA LUTECE) - Retour",,3,,FFFFFF,000000

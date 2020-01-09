@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178701,100,"66","(OPERA <-> CLICHY - VICTOR HUGO) - Aller",,3,,FFFFFF,000000
+2178702,100,"66","(OPERA <-> CLICHY - VICTOR HUGO) - Retour",,3,,FFFFFF,000000
+2178870,100,"66","(OPERA <-> MAIRIE DE SAINT-OUEN) - Aller",,3,,FFFFFF,000000
+2178871,100,"66","(OPERA <-> MAIRIE DE SAINT-OUEN) - Retour",,3,,FFFFFF,000000

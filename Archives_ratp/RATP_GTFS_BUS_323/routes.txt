@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178892,100,"323","(CHATILLON - MONTROUGE-METRO <-> GAMBETTA) - Aller",,3,,FFFFFF,000000
+2178893,100,"323","(CHATILLON - MONTROUGE-METRO <-> GAMBETTA) - Retour",,3,,FFFFFF,000000
+2178894,100,"323","(ISSY-VAL DE SEINE RER <-> CHATILLON - MONTROUGE) - Aller",,3,,FFFFFF,000000
+2178895,100,"323","(ISSY-VAL DE SEINE RER <-> CHATILLON - MONTROUGE) - Retour",,3,,FFFFFF,000000

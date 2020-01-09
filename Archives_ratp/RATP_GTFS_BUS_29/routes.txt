@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2132669,100,"29","(GARE SAINT-LAZARE <-> PLACE DES VOSGES) - Retour",,3,,FFFFFF,000000
+2178944,100,"29","(GARE SAINT-LAZARE <-> PORTE DE MONTEMPOIVRE) - Aller",,3,,FFFFFF,000000
+2178945,100,"29","(GARE SAINT-LAZARE <-> PORTE DE MONTEMPOIVRE) - Retour",,3,,FFFFFF,000000

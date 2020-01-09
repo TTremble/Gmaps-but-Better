@@ -8,7 +8,6 @@
 void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times*stop_times)
 {
     char d ;
-    int compteur_ligne = 0 ;
     long trip_id;
     int heure ;
     int minutes ;
@@ -17,7 +16,6 @@ void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times*stop_times)
     int stop_sequence ;
     int temps_en_minutes ;
     int i = 0 ;
-    int max = nombre_de_transports() ;
     
     while ((d = fgetc(fichier_stop_time)) != '\n')
         {
@@ -44,7 +42,6 @@ void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times*stop_times)
                 //On vient à la fin de la ligne
         }
         createtime(trip_id,temps_en_minutes,stop_id,stop_sequence) ;
-        compteur_ligne ++ ;
     }  
     
 }

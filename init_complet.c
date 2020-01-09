@@ -5,18 +5,18 @@
 #include "station.h"
 #include "lecture.h"
 
-void initialisation_stop_graphe(reseau)
+void initialisation_stop_graphe(station* reseau)
 {
     int i = 1 ;
     int max = nombre_de_transports() ;
     while ( i <= max)
     {
-    FILE* fichier_stop = ouverture_text_stop_par_ligne(i) ;
+    FILE* fichier_stop = ouverture_stop_par_ligne(i) ;
     init_fichier_stop_one_file(fichier_stop,reseau) ;
     i++ ;
     }
 }
-void initialisation_time_graphe(stop_times)
+void initialisation_time_graphe(times* stop_times)
 {
     int i = 1 ;
     int max = nombre_de_transports() ;
@@ -27,7 +27,7 @@ void initialisation_time_graphe(stop_times)
     i++ ;
     }
 }
-void initialisation_trips_graphe(trips)
+void initialisation_trips_graphe(trip* trips)
 {
     int i = 1 ;
     int max = nombre_de_transports() ;

@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #include"station.h"
+#include "lecture.h"
 #include"createstation.h"
 
 int initialisation(void){

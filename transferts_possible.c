@@ -14,24 +14,24 @@ void transfert_possible(int id, int num_fichier, station* reseau)
     int to_stop_id ;
     int transfert_type;
     int transfert_time ;
-    FILE* fichier_stop = NULL ;
+    FILE* fichier_transfer = NULL ;
     int a = find_station(id, reseau);
     station star = reseau[a] ;
 
-        FILE* fichier_stop = ouverture_trips_par_ligne(num_fichier) ;
-        while ((d = fgetc(fichier_stop)) != '\n')
+        fichier_transfer = ouverture_trips_par_ligne(num_fichier) ;
+        while ((d = fgetc(fichier_transfer)) != '\n')
             {
                 //On saute la première ligne
             }
         while (1 > 0)
         {
-            if ((fscanf(fichier_stop,"%d",&from_stop_id) == EOF))
+            if ((fscanf(fichier_transfer,"%d",&from_stop_id) == EOF))
             {
                 break ;
             }
-            fscanf(fichier_stop,"%d",&to_stop_id) ;
-            fscanf(fichier_stop,"%d",&transfert_type);
-            fscanf(fichier_stop,"%d",&transfert_time);
+            fscanf(fichier_transfer,"%d",&to_stop_id) ;
+            fscanf(fichier_transfer,"%d",&transfert_type);
+            fscanf(fichier_transfer,"%d",&transfert_time);
             if (to_stop_id == id)
             {
                 b = find_station(from_stop_id, reseau);

@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "station.h"
 #include "lecture.h"
+#include "createstation.h"
 
 void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
 {
@@ -31,20 +32,20 @@ void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
             break ;
         }
         // On lit le nom de la station
-        fscanf(fichier_stop,"%99[^\"]",trash);
+        fscanf(fichier_stop,"%99[^\"]",&trash);
         fgetc(fichier_stop) ;
         fscanf(fichier_stop,"%99[^\"]",name);
         // On lit l'adresse
-        fscanf(fichier_stop,"%99[^\"]",trash); 
+        fscanf(fichier_stop,"%99[^\"]",&trash); 
         fgetc(fichier_stop) ;
         fscanf(fichier_stop,"%99[^\"]",adresse);
-        fscanf(fichier_stop,"%ld",&lon) ;
-        fscanf(fichier_stop,"%ld",&lat) ;
+        fscanf(fichier_stop,"%Le",&lon) ;
+        fscanf(fichier_stop,"%Le",&lat) ;
         createstation(name, id , lat, lon) ;
         while ((d = fgetc(fichier_stop)) != '\n')
         {
             //On vient a la fin de la ligne
         }
     }
-    free(&name) ;
+    free(name) ;
 }

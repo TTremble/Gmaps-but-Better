@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178914,100,"PC","(PONT DU GARIGLIANO - HOPITAL EGP <-> PORTE D'ASNIERES - MARGUERITE LONG) - Aller",,3,,FFFFFF,000000
+2178915,100,"PC","(PONT DU GARIGLIANO - HOPITAL EGP <-> PORTE D'ASNIERES - MARGUERITE LONG) - Retour",,3,,FFFFFF,000000

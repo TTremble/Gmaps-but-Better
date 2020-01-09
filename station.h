@@ -1,3 +1,6 @@
+#ifndef STATION_H
+#define STATION_H
+
 typedef struct station{
     char * name;
     int id;
@@ -17,3 +20,5 @@ typedef struct trip{
   long route_id;
   long trip_id;
 } trip;
+
+#endif

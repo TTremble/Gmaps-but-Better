@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1576313,100,"116","(BOIS-PERRIER RER - ROSNY 2 <-> (CHAMPIGNY-ST-MAUR RER)) - Retour",,3,,FFFFFF,000000
+1576314,100,"116","(LEDRU-ROLLIN - GENERAL DE GAULLE <-> (ROSNY-BOIS-PERRIER RER)) - Retour",,3,,FFFFFF,000000
+2178801,100,"116","(BOIS-PERRIER RER - ROSNY 2 <-> CHAMPIGNY - SAINT-MAUR RER) - Aller",,3,,FFFFFF,000000
+2178802,100,"116","(BOIS-PERRIER RER - ROSNY 2 <-> CHAMPIGNY - SAINT-MAUR RER) - Retour",,3,,FFFFFF,000000

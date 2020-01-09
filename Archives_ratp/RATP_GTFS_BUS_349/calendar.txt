@@ -1,0 +1,4 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+3107672,0,0,0,0,0,0,0,20191122,20200131
+3107671,0,0,0,0,0,0,0,20191124,20200126
+3107673,0,0,0,0,0,0,0,20191123,20200125

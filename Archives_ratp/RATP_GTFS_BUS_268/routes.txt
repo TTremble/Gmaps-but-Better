@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178837,100,"268","(SAINT-DENIS - UNIVERSITE <-> VILLIERS LE BEL - RER) - Aller",,3,,FFFFFF,000000
+2178838,100,"268","(SAINT-DENIS - UNIVERSITE <-> VILLIERS LE BEL - RER) - Retour",,3,,FFFFFF,000000
+2178839,100,"268","(VILLIERS LE BEL - RER <-> GUYNEMER) - Aller",,3,,FFFFFF,000000

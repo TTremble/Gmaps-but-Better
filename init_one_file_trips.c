@@ -17,7 +17,6 @@ void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
     int shape_id ;
     int i = 0 ;
     int max = nombre_de_transports() ;
-    int i = 0 ;
     
     while ((d = fgetc(fichier_trips)) != '\n')
         {
@@ -29,7 +28,7 @@ void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
         {
             break ;
         }
-        fscanf(fichier_trips,"%d",&route_id) ;
+        fscanf(fichier_trips,"%ld",&route_id) ;
         fscanf(fichier_trips,"%d",&service_id) ;
         fscanf(fichier_trips,"%ld",&trip_id) ;
         fscanf(fichier_trips,"%d",&trip_headsign);

@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1469507,100,"197","(BACONNETS - MIRABEAU <-> DESCARTES) - Aller",,3,,FFFFFF,000000
+1469508,100,"197","(SAUSSAYE - MIRABEAU <-> DESCARTES) - Retour",,3,,FFFFFF,000000
+2178485,100,"197","(PORTE D'ORLEANS-METRO <-> MASSY - OPERA-THEATRE) - Aller",,3,,FFFFFF,000000
+2178486,100,"197","(PORTE D'ORLEANS-METRO <-> MASSY - OPERA-THEATRE) - Retour",,3,,FFFFFF,000000

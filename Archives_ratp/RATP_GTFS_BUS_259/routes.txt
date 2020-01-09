@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178789,100,"259","(NANTERRE - ANATOLE FRANCE <-> SAINT-GERMAIN-EN-LAYE RER) - Aller",,3,,FFFFFF,000000
+2178790,100,"259","(NANTERRE - ANATOLE FRANCE <-> SAINT-GERMAIN-EN-LAYE RER) - Retour",,3,,FFFFFF,000000

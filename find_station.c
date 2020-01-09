@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+#include "station.h"
 
 station find_station(int id_search, station * reseau){
   for(int i=0;i<25479;i++){

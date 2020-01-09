@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2017045,100,"92","(PORTE D'ORLEANS <-> (GARE MONTPARNASSE)) - Retour",,3,,FFFFFF,000000
+2178988,100,"92","(PORTE D'ORLEANS <-> PORTE DE CHAMPERRET) - Aller",,3,,FFFFFF,000000
+2178989,100,"92","(PORTE D'ORLEANS <-> PORTE DE CHAMPERRET) - Retour",,3,,FFFFFF,000000

@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2178735,100,"261","(SAINT-GRATIEN - RER <-> BONGARDE) - Aller",,3,,FFFFFF,000000
+2178736,100,"261","(SAINT-GRATIEN - RER <-> BONGARDE) - Retour",,3,,FFFFFF,000000
+2178737,100,"261","(GARE DE FRANCONVILLE <-> BONGARDE) - Aller",,3,,FFFFFF,000000
+2178738,100,"261","(GARE DE FRANCONVILLE <-> BONGARDE) - Retour",,3,,FFFFFF,000000

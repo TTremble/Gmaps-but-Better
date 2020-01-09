@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+2179034,100,"193","(ARCUEIL - LENINE <-> MAIRIE DE L'HAY-LES-ROSES) - Aller",,3,,FFFFFF,000000
+2179035,100,"193","(ARCUEIL - LENINE <-> MAIRIE DE L'HAY-LES-ROSES) - Retour",,3,,FFFFFF,000000
