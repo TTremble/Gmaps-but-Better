@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178413,100,"220","(BRY SUR MARNE-RER <-> TORCY RER) - Aller",,3,,FFFFFF,000000
-2178414,100,"220","(BRY SUR MARNE-RER <-> TORCY RER) - Retour",,3,,FFFFFF,000000
-2178615,100,"220","(BRY-SUR-MARNE RER <-> TORCY-RER) - Aller",,3,,FFFFFF,000000
-2178616,100,"220","(BRY-SUR-MARNE RER <-> TORCY-RER) - Retour",,3,,FFFFFF,000000

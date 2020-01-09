@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178900,100,"COLOMB","566 (EGLISE DE COLOMBES <-> RUE DE L'INDUSTRIE) - Aller",,3,,FFFFFF,000000
-2178901,100,"COLOMB","566 (EGLISE DE COLOMBES <-> RUE DE L'INDUSTRIE) - Retour",,3,,FFFFFF,000000

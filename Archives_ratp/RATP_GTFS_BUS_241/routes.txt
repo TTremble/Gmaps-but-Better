@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1469227,100,"241","(PLACE DE LA PAIX <-> RUEIL-MALMAISON RER) - Retour",,3,,FFFFFF,000000
-2178573,100,"241","(PORTE D'AUTEUIL-METRO <-> RUEIL-MALMAISON RER) - Aller",,3,,FFFFFF,000000
-2178574,100,"241","(PORTE D'AUTEUIL-METRO <-> RUEIL-MALMAISON RER) - Retour",,3,,FFFFFF,000000

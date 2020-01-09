@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1935541,100,"166","(PORTE DE CLIGNANCOURT <-> ZAC DES LOUVRESSES) - Retour",,3,,FFFFFF,000000
-1935542,100,"166","(PORTE DE CLIGNANCOURT <-> ZAC DES LOUVRESSES) - Aller",,3,,FFFFFF,000000
-1935543,100,"166","(PORTE DE CLIGNANCOURT <-> ZAC DES LOUVRESSES) - Aller",,3,,FFFFFF,000000

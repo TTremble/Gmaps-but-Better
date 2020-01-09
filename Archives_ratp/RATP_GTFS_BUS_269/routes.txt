@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2093914,100,"269","((GARE DE GARGES-SARCELLES RER) <-> RU DE VAUX) - Aller",,3,,FFFFFF,000000
-2179032,100,"269","(GARGES-SARCELLES RER <-> HOTEL DE VILLE D'ATTAINVILLE) - Aller",,3,,FFFFFF,000000
-2179033,100,"269","(GARGES-SARCELLES RER <-> HOTEL DE VILLE D'ATTAINVILLE) - Retour",,3,,FFFFFF,000000

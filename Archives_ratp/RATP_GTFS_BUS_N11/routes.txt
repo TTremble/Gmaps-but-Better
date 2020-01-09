@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178605,100,"N11","(CHATEAU DE VINCENNES <-> PONT DE NEUILLY-METRO) - Aller",,3,,FFFFFF,000000
-2178606,100,"N11","(CHATEAU DE VINCENNES <-> PONT DE NEUILLY-METRO) - Retour",,3,,FFFFFF,000000

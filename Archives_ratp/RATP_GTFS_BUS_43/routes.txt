@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178479,100,"43","(GARE DU NORD <-> BAGATELLE) - Aller",,3,,FFFFFF,000000
-2178480,100,"43","(GARE DU NORD <-> BAGATELLE) - Retour",,3,,FFFFFF,000000
-2179042,100,"43","(GARE DU NORD <-> HIPPODROME DE LONGCHAMP) - Aller",,3,,FFFFFF,000000
-2179043,100,"43","(GARE DU NORD <-> HIPPODROME DE LONGCHAMP) - Retour",,3,,FFFFFF,000000

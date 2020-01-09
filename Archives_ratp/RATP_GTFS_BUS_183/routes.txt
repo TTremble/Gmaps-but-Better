@@ -1,6 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1602765,100,"183","(PORTE DE CHOISY <-> ROUGET DE LISLE) - Aller",,3,,FFFFFF,000000
-2178673,100,"183","(PORTE DE CHOISY <-> ORLY 4) - Aller",,3,,FFFFFF,000000
-2178674,100,"183","(PORTE DE CHOISY <-> ORLY 4) - Retour",,3,,FFFFFF,000000
-2178675,100,"183","(PORTE DE CHOISY <-> MAIRIE D'ORLY) - Aller",,3,,FFFFFF,000000
-2178676,100,"183","(PORTE DE CHOISY <-> MAIRIE D'ORLY) - Retour",,3,,FFFFFF,000000

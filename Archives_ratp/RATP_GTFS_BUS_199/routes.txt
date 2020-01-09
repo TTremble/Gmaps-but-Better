@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178481,100,"199","(MASSY-PALAISEAU-RER <-> PABLO PICASSO) - Aller",,3,,FFFFFF,000000
-2178482,100,"199","(MASSY-PALAISEAU-RER <-> PABLO PICASSO) - Retour",,3,,FFFFFF,000000
-2178483,100,"199","(MASSY-PALAISEAU-RER <-> LA ROCADE-LYCEE) - Aller",,3,,FFFFFF,000000
-2178484,100,"199","(MASSY-PALAISEAU-RER <-> LA ROCADE-LYCEE) - Retour",,3,,FFFFFF,000000

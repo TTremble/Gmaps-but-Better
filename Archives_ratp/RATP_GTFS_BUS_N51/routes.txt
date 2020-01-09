@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178645,100,"N51","(GARE D'ENGHIEN-LES-BAINS <-> GARE SAINT-LAZARE) - Aller",,3,,FFFFFF,000000
-2178646,100,"N51","(GARE D'ENGHIEN-LES-BAINS <-> GARE SAINT-LAZARE) - Retour",,3,,FFFFFF,000000
-2178739,100,"N51","(GARE D'ENGHIEN-LES-BAINS <-> GARE SAINT-LAZARE.) - Aller",,3,,FFFFFF,000000
-2178740,100,"N51","(GARE D'ENGHIEN-LES-BAINS <-> GARE SAINT-LAZARE.) - Retour",,3,,FFFFFF,000000

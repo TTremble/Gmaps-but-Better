@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2179026,100,"378","(NANTERRE-VILLE RER <-> LES COURTILLES) - Aller",,3,,FFFFFF,000000
-2179027,100,"378","(NANTERRE-VILLE RER <-> LES COURTILLES) - Retour",,3,,FFFFFF,000000

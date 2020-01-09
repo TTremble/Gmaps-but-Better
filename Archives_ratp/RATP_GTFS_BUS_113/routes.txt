@@ -1,6 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1955331,100,"113","(NOGENT-SUR-MARNE-RER <-> POINTE DE GOURNAY) - Aller",,3,,FFFFFF,000000
-2178419,100,"113","(NOGENT-SUR-MARNE RER <-> MAIRIE DE CHELLES) - Aller",,3,,FFFFFF,000000
-2178420,100,"113","(NOGENT-SUR-MARNE RER <-> MAIRIE DE CHELLES) - Retour",,3,,FFFFFF,000000
-2178421,100,"113","(NOGENT-SUR-MARNE RER <-> TERRE CIEL) - Aller",,3,,FFFFFF,000000
-2178422,100,"113","(NOGENT-SUR-MARNE RER <-> TERRE CIEL) - Retour",,3,,FFFFFF,000000

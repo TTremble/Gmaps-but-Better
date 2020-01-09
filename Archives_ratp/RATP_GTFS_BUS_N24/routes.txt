@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178878,100,"N24","(GARE DE SARTROUVILLE-RER <-> CHATELET) - Aller",,3,,FFFFFF,000000
-2178879,100,"N24","(GARE DE SARTROUVILLE-RER <-> CHATELET) - Retour",,3,,FFFFFF,000000
-2178898,100,"N24","(GARE DE SARTROUVILLE-RER <-> GARE SAINT-LAZARE) - Aller",,3,,FFFFFF,000000
-2178899,100,"N24","(GARE DE SARTROUVILLE-RER <-> GARE SAINT-LAZARE) - Retour",,3,,FFFFFF,000000

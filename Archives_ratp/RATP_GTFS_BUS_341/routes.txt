@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178908,100,"341","(PORTE DE CLIGNANCOURT - CROISSET <-> CHARLES DE GAULLE - ETOILE) - Aller",,3,,FFFFFF,000000
-2178909,100,"341","(PORTE DE CLIGNANCOURT - CROISSET <-> CHARLES DE GAULLE - ETOILE) - Retour",,3,,FFFFFF,000000

@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178835,100,"213","(CHELLES - GOURNAY RER <-> LE VILLAGE) - Aller",,3,,FFFFFF,000000
-2178836,100,"213","(CHELLES - GOURNAY RER <-> LE VILLAGE) - Retour",,3,,FFFFFF,000000
-869472,100,"213","(GARE DE CHELLES-GOURNAY-RER <-> NOISIEL-RER) - Aller",,3,,FFFFFF,000000
-869474,100,"213","(GARE DE CHELLES-GOURNAY-RER <-> PLACE PABLO PICASSO) - Aller",,3,,FFFFFF,000000

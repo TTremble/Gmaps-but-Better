@@ -1,6 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1469302,100,"133","((SARCELLES-BOIS D'ECOUEN - LE BOUR) <-> LE BOURGET-RER) - Aller",,3,,FFFFFF,000000
-2178621,100,"133","(BOIS D'ECOUEN <-> LE BOURGET RER) - Aller",,3,,FFFFFF,000000
-2178622,100,"133","(BOIS D'ECOUEN <-> LE BOURGET RER) - Retour",,3,,FFFFFF,000000
-2178623,100,"133","(GARE DE SARCELLES-SAINT-BRICE <-> LE BOURGET RER) - Aller",,3,,FFFFFF,000000
-2178624,100,"133","(GARE DE SARCELLES-SAINT-BRICE <-> LE BOURGET RER) - Retour",,3,,FFFFFF,000000

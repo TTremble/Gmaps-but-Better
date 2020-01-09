@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178527,100,"175","(PORTE DE SAINT-CLOUD <-> GABRIEL PERI-METRO) - Aller",,3,,FFFFFF,000000
-2178528,100,"175","(PORTE DE SAINT-CLOUD <-> GABRIEL PERI-METRO) - Retour",,3,,FFFFFF,000000
-2179046,100,"175","(PONT DE PUTEAUX <-> ASNIERES - BORDS DE SEINE) - Aller",,3,,FFFFFF,000000
-2179047,100,"175","(PONT DE PUTEAUX <-> ASNIERES - BORDS DE SEINE) - Retour",,3,,FFFFFF,000000

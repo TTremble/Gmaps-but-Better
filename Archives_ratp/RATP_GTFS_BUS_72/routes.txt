@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2010254,100,"72","(PARC DE SAINT-CLOUD <-> GARE DE LYON - MAISON DE LA RATP) - Aller",,3,,FFFFFF,000000
-2010255,100,"72","(GARE DE LYON - MAISON DE LA RATP <-> PARC DE SAINT-CLOUD) - Retour",,3,,FFFFFF,000000

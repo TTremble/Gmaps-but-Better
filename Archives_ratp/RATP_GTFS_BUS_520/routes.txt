@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1553191,100,"520","(BRY-SUR-MARNE RER <-> LES HAUTS DE BRY) - Retour",,3,,FFFFFF,000000
-2178369,100,"520","(BRY-SUR-MARNE RER <-> LES HAUTS DE BRY) - Aller",,3,,FFFFFF,000000
-2178370,100,"520","(BRY-SUR-MARNE RER <-> LES HAUTS DE BRY) - Retour",,3,,FFFFFF,000000

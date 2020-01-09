@@ -1,2 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-884811,100,"V6","(SERVICE URBAIN DU KREMLIN BICETRE <-> LECLERC - THOMAS) - Aller",,3,,FFFFFF,000000

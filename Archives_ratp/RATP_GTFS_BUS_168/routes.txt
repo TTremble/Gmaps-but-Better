@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1679091,100,"168","(SAINT-DENIS - UNIVERSITE) - Retour",,3,,FFFFFF,000000
-2178831,100,"168","(SAINT-DENIS - UNIVERSITE <-> CHANTEPIE) - Aller",,3,,FFFFFF,000000
-2178832,100,"168","(SAINT-DENIS - UNIVERSITE <-> CHANTEPIE) - Retour",,3,,FFFFFF,000000

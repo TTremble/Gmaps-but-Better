@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178451,100,"LA TRAVERSE DE CHARONNE","CHARONN (LA TRAVERSE DE CHARONNE <-> GAMBETTA) - Aller",,3,,FFFFFF,000000
-2178452,100,"LA TRAVERSE DE CHARONNE","CHARONN (LA TRAVERSE DE CHARONNE <-> GAMBETTA) - Retour",,3,,FFFFFF,000000

@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178439,100,"104","(ECOLE VETERINAIRE DE MAISONS-ALFORT <-> SUCY-BONNEUIL RER) - Aller",,3,,FFFFFF,000000
-2178440,100,"104","(ECOLE VETERINAIRE DE MAISONS-ALFORT <-> SUCY-BONNEUIL RER) - Retour",,3,,FFFFFF,000000
-2178441,100,"104","(SUCY-BONNEUIL RER <-> ATELIERS RATP) - Aller",,3,,FFFFFF,000000
-2178442,100,"104","(SUCY-BONNEUIL RER <-> ATELIERS RATP) - Retour",,3,,FFFFFF,000000

@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178575,100,"275","(LA DEFENSE-METRO-RER-TRAMWAY <-> PONT DE LEVALLOIS-METRO) - Aller",,3,,FFFFFF,000000
-2178576,100,"275","(LA DEFENSE-METRO-RER-TRAMWAY <-> PONT DE LEVALLOIS-METRO) - Retour",,3,,FFFFFF,000000

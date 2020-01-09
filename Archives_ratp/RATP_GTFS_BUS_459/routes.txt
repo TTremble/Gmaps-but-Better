@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178653,100,"459","(GARE DE SAINT-CLOUD <-> HENRI REGNAULT) - Aller",,3,,FFFFFF,000000
-2178654,100,"459","(GARE DE SAINT-CLOUD <-> HENRI REGNAULT) - Retour",,3,,FFFFFF,000000

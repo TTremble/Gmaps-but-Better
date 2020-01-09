@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2179064,100,"285","(PORTE DE L'ESSONNE <-> JUVISY-RER) - Aller",,3,,FFFFFF,000000
-2179065,100,"285","(PORTE DE L'ESSONNE <-> JUVISY-RER) - Retour",,3,,FFFFFF,000000
-2179066,100,"285","(PORTE DE L'ESSONNE <-> (JUVISY RER)) - Retour",,3,,FFFFFF,000000

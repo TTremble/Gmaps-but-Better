@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2178671,100,"165","(PORTE DE CHAMPERRET <-> ASNIERES-18 JUIN 1940) - Aller",,3,,FFFFFF,000000
-2178672,100,"165","(PORTE DE CHAMPERRET <-> ASNIERES-18 JUIN 1940) - Retour",,3,,FFFFFF,000000
