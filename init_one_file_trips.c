@@ -17,12 +17,8 @@ void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
     int shape_id ;
     int i = 0 ;
     int max = nombre_de_transports() ;
-    while (i < max)
-    if (station == NULL) 
-    {
-        exit(0); 
-    }
     int i = 0 ;
+    
     while ((d = fgetc(fichier_trips)) != '\n')
         {
             //On saute la première ligne
@@ -40,7 +36,7 @@ void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
         fscanf(fichier_trips,"%d",&trip_short_name) ;
         fscanf(fichier_trips,"%d",&direction_id) ;
         fscanf(fichier_trips,"%d",&shape_id) ;
-        reseau[i] = createtrip(route_id, trip_id) ;
+        createtrip(route_id, trip_id) ;
         while ((d = fgetc(fichier_trips)) != '\n')
         {
             //On vient a la fin de la ligne

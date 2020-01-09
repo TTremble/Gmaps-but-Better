@@ -2,11 +2,8 @@
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
-#include "ouverture_stop_times.c"
-#include "ouverture_stops.c"
-#include "ouverture_trips.c"
-#include "lecture_fichier_stop_times.c"
-#include "lecture_fichiers_stop.c"
+#include "lecture.h"
+#include "station.h"
 
 
 int main(void)

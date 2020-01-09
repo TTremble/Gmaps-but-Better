@@ -15,17 +15,11 @@ void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
     long double lon ;
     char trash ;
     int max = nombre_de_transports() ;
-    char * name =malloc(100*sizeof(char)) ;
+    char * name = malloc(100*sizeof(char)) ;
     if (name == NULL)
     {
         exit(0) ;
     }
-    while (i < max)
-    if (station == NULL) 
-    {
-        exit(0); 
-    }
-    int i = 0 ;
     while ((d = fgetc(fichier_stop)) != '\n')
         {
             //On saute la première ligne
@@ -46,11 +40,11 @@ void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
         fscanf(fichier_stop,"%99[^\"]",adresse);
         fscanf(fichier_stop,"%ld",&lon) ;
         fscanf(fichier_stop,"%ld",&lat) ;
-        reseau[i] = createstation(name, id , lat, lon) ;
+        createstation(name, id , lat, lon) ;
         while ((d = fgetc(fichier_stop)) != '\n')
         {
             //On vient a la fin de la ligne
         }
-        i ++ ;
     }
+    free(&name) ;
 }
