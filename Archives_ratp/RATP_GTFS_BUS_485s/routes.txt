@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2128732,100,"485","((ATHIS-MONS NOYER RENARD) <-> DELALANDE PASTEUR) - Aller",,3,,FFFFFF,000000
-2128733,100,"485","(LES OISEAUX <-> (ATHIS-MONS NOYER RENARD)) - Retour",,3,,FFFFFF,000000
-2166105,100,"485","(NOYER RENARD <-> DELALANDE PASTEUR) - Aller",,3,,FFFFFF,000000
-2166106,100,"485","(NOYER RENARD <-> DELALANDE PASTEUR) - Retour",,3,,FFFFFF,000000

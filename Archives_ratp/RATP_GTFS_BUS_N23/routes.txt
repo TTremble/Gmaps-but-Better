@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1959882,100,"N23","(CHATELET <-> CHELLES - GOURNAY RER (TRAVAUX)) - Retour",,3,,FFFFFF,000000
-2067513,100,"N23","(CHELLES - GOURNAY RER <-> CHATELET (TRAVAUX)) - Aller",,3,,FFFFFF,000000
-2166165,100,"N23","(CHELLES - GOURNAY RER <-> GARE DE L'EST (TRAVAUX)) - Aller",,3,,FFFFFF,000000
-2166166,100,"N23","(CHELLES - GOURNAY RER <-> GARE DE L'EST (TRAVAUX)) - Retour",,3,,FFFFFF,000000

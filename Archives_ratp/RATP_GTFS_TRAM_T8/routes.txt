@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1721784,100,"T8","(SAINT-DENIS - PORTE DE PARIS <-> VILLETANEUSE-UNIVERSITE) - Aller",,0,,FFFFFF,000000
-1721785,100,"T8","(SAINT-DENIS - PORTE DE PARIS <-> VILLETANEUSE-UNIVERSITE) - Retour",,0,,FFFFFF,000000
-1721786,100,"T8","(SAINT-DENIS - PORTE DE PARIS <-> EPINAY - ORGEMONT) - Aller",,0,,FFFFFF,000000
-1721787,100,"T8","(SAINT-DENIS - PORTE DE PARIS <-> EPINAY - ORGEMONT) - Retour",,0,,FFFFFF,000000

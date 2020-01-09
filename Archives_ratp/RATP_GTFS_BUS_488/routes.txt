@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2166143,100,"488","(PLACE HENRI DEUDON <-> MARCHE DE JUVISY) - Aller",,3,,FFFFFF,000000
-2166144,100,"488","(PLACE HENRI DEUDON <-> MARCHE DE JUVISY) - Retour",,3,,FFFFFF,000000
-2166407,100,"488","(PLACE HENRI DEUDON <-> JUVISY RER) - Aller",,3,,FFFFFF,000000
-2166408,100,"488","(PLACE HENRI DEUDON <-> JUVISY RER) - Retour",,3,,FFFFFF,000000

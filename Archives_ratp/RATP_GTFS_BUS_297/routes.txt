@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2166389,100,"297","(ANTONY RER <-> PLACE CHARLES STEBER) - Aller",,3,,FFFFFF,000000
-2166390,100,"297","(ANTONY RER <-> PLACE CHARLES STEBER) - Retour",,3,,FFFFFF,000000

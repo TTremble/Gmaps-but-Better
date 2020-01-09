@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165975,100,"V7","(VILLEJUIF - LOUIS ARAGON <-> LES DAHLIAS) - Aller",,3,,FFFFFF,000000
-2165976,100,"V7","(VILLEJUIF - LOUIS ARAGON <-> LES DAHLIAS) - Retour",,3,,FFFFFF,000000

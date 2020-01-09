@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1919623,100,"185","((PORTE D'ITALIE - CHOISY SUD) <-> CHOISY SUD) - Aller",,3,,FFFFFF,000000
-1919855,100,"185","(CHOISY SUD <-> PORTE D'ITALIE - HELENE BOUCHER) - Retour",,3,,FFFFFF,000000

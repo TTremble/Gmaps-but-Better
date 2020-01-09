@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2166299,100,"169","(HOPITAL EUROPEEN GEORGES POMPIDOU <-> PONT DE SEVRES) - Aller",,3,,FFFFFF,000000
-2166300,100,"169","(HOPITAL EUROPEEN GEORGES POMPIDOU <-> PONT DE SEVRES) - Retour",,3,,FFFFFF,000000
-2166301,100,"169","(HOPITAL EUROPEEN G.P. <-> PONT DE SEVRES) - Aller",,3,,FFFFFF,000000
-2166302,100,"169","(HOPITAL EUROPEEN G.P. <-> PONT DE SEVRES) - Retour",,3,,FFFFFF,000000

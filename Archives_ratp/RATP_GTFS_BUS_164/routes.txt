@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165881,100,"164","(PORTE DE CHAMPERRET <-> COLLEGE CLAUDE MONET) - Aller",,3,,FFFFFF,000000
-2165882,100,"164","(PORTE DE CHAMPERRET <-> COLLEGE CLAUDE MONET) - Retour",,3,,FFFFFF,000000

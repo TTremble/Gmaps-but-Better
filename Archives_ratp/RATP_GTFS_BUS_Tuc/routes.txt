@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1414429,100,"TUC","(VAN GOGH <-> CAILLOUX) - Retour",,3,,FFFFFF,000000
-2165869,100,"TUC","(RUE MARTRE - MAIRIE DE CLICHY <-> RUE MARTRE - MAIRIE DE CLICHY.) - Aller",,3,,FFFFFF,000000
-2165870,100,"TUC","(RUE MARTRE - MAIRIE DE CLICHY <-> RUE MARTRE - MAIRIE DE CLICHY.) - Retour",,3,,FFFFFF,000000

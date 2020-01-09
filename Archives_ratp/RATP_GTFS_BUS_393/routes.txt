@@ -1,3 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2165729,100,"393","(CARREFOUR DE LA RESISTANCE <-> SUCY-BONNEUIL RER) - Aller",,3,,FFFFFF,000000
-2165730,100,"393","(CARREFOUR DE LA RESISTANCE <-> SUCY-BONNEUIL RER) - Retour",,3,,FFFFFF,000000

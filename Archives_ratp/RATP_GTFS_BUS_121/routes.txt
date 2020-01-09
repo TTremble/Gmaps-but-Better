@@ -1,4 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-1972046,100,"121","(MAIRIE DE MONTREUIL <-> CHATEAU DE VILLEMOMBLE) - Aller",,3,,FFFFFF,000000
-2165965,100,"121","(MAIRIE DE MONTREUIL <-> LYCEE GEORGES CLEMENCEAU) - Aller",,3,,FFFFFF,000000
-2165966,100,"121","(MAIRIE DE MONTREUIL <-> LYCEE GEORGES CLEMENCEAU) - Retour",,3,,FFFFFF,000000

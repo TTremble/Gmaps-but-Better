@@ -1,5 +1,0 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-2166369,100,"85","(CHATELET <-> SAINT-OUEN - LES DOCKS) - Aller",,3,,FFFFFF,000000
-2166370,100,"85","(CHATELET <-> SAINT-OUEN - LES DOCKS) - Retour",,3,,FFFFFF,000000
-2166371,100,"85","(PORTE DE CLIGNANCOURT <-> SAINT-OUEN - LES DOCKS) - Aller",,3,,FFFFFF,000000
-2166372,100,"85","(PORTE DE CLIGNANCOURT <-> SAINT-OUEN - LES DOCKS) - Retour",,3,,FFFFFF,000000
