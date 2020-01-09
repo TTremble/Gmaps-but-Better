@@ -9,7 +9,6 @@ void transfert_possible(int id, int num_fichier, station* reseau)
 {
     char d ;
     int b ;
-    char adresse[100] ;
     int i = 0 ;
     int from_stop_id ;
     int to_stop_id ;
@@ -35,13 +34,13 @@ void transfert_possible(int id, int num_fichier, station* reseau)
             fscanf(fichier_stop,"%d",&transfert_time);
             if (to_stop_id == id)
             {
-                b = find_station(id, reseau);
+                b = find_station(from_stop_id, reseau);
                 int transfert_time_save = transfert_time/60 ;
                 star.arete[b] = transfert_time_save ;
             }
             if (from_stop_id == id)
             {
-                b = find_station(id, reseau);
+                b = find_station(to_stop_id, reseau);
                 int transfert_time_save = transfert_time/60 ;
                 star.arete[b] = transfert_time_save ;
             }

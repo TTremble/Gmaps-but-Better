@@ -5,7 +5,7 @@
 #include "lecture.h"
 #include "station.h"
 
-void sommet_adjacent_et_temps(int num_station ,int time, station* reseau)
+void update_aretes(int num_station ,int time, station* reseau)
 {
     char d ;
     int b ;
