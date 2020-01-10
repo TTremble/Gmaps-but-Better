@@ -15,6 +15,7 @@ int main(void){
     reseau[i].arete=ar;
   }
   reseau[20030].id=243102;
-  printf("%i\n",find_station(243102,reseau).id);
+  int a = find_station(243102,reseau);
+  printf("%i\n",reseau[a].id);
   return 0;
 }

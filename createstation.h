@@ -18,12 +18,12 @@ times createtime(long id,int timex,int stop_idx,int stop_sequencex){
   new.time=timex;
   new.stop_id=stop_idx;
   new.stop_sequence=stop_sequencex;
-  return times;
+  return new;
 };
 
 trip createtrip(long rid, long tid){
   trip new;
   new.route_id=rid;
   new.trip_id=tid;
-  return trip;
+  return new;
 };

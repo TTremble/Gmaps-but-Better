@@ -9,8 +9,7 @@ int find_station(int id_search, station * reseau){
     }
   }
   printf("ERROR NON EXISTANT");
-  station error;
-  return error;
+  exit(0);
 }
 
 void transfert_possible(int id, int num_fichier, station* reseau) ;
