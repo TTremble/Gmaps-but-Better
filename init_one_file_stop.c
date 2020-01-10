@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include "station.h"
 #include "lecture.h"
-#include "createstation.h"
 
 void init_fichier_stop_one_file(FILE* fichier_stop, station *reseau)
 {

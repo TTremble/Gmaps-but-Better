@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include"station.h"
-#include"prochains.c"
+#include"lecture.h"
 
 
 int main(void){

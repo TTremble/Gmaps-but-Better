@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "station.h"
-#include "initialisation.c"
-#include "sommet_adjacent.c"
+#include "lecture.h"
 
 //fonction principale pour trouver le plus court chemin, on utilise l'algorithme de dijkstra.
 int main(void){

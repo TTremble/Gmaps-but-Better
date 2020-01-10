@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include "lecture.h"
 #include "station.h"
-#include "find_station.h"
+
 //fonction qui va actualiser les connexions d'une station lorsqu'elle est appelé, elle permet de créer les arêtes dont le dijkstra aura besoin
 void update_aretes(int num_station ,int time, station* reseau)
 {

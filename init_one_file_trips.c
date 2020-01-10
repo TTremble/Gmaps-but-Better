@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include "station.h"
 #include "lecture.h"
-#include "createstation.h"
 
 void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
 {

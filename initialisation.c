@@ -3,7 +3,6 @@
 #include<math.h>
 #include"station.h"
 #include "lecture.h"
-#include"createstation.h"
 
 
 //cette fonction est celle qu'on appellera pour créer le graphe à l'état initial

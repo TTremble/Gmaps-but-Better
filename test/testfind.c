@@ -1,7 +1,7 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include"station.h"
-#include"find_station.h"
+#include "lecture.h"
 
 int main(void){
   station * reseau=malloc(25479*sizeof(station));

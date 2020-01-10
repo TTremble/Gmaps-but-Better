@@ -19,5 +19,13 @@ void init_fichier_stop_time_one_file(FILE* fichier_stop_time, times* stop_times)
 void initialisation_stop_graphe(station* reseau) ;
 void initialisation_time_graphe(times* stop_times) ;
 void initialisation_trips_graphe(trip* trips) ;
+station * initialisation(void) ;
+station createstation(char * namea,int ida,long double lata,long double lona) ;
+times createtime(long id,int timex,int stop_idx,int stop_sequencex) ;
+trip createtrip(long rid, long tid);
+int find_station(int id_search, station * reseau) ;
+void transfert_possible(int id, int num_fichier, station* reseau) ;
+void update_aretes(int num_station ,int time, station* reseau) ;
+int prochains(station A, station * reseau, int time);
 
 #endif

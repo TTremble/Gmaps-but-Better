@@ -1,7 +1,3 @@
-#ifndef CREATESTATION_H
-#define CREATESTATION_H
-
-
 #include<stdio.h>
 #include<stdlib.h>
 #include"station.h"
@@ -34,4 +30,3 @@ trip createtrip(long rid, long tid){
   return new;
 };
 
-#endif

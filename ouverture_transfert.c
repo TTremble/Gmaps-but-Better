@@ -5,7 +5,7 @@
 #include "lecture.h"
 #define IN_FILE_ERROR 1 
 
-FILE* ouverture_stop_par_ligne(int numero_du_fichier)
+FILE* ouverture_transfert_par_ligne(int numero_du_fichier)
 {    
     struct dirent *de;  // Pointer for directory entry 
     
