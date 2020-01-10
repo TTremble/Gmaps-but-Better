@@ -1,4 +1,5 @@
 #!/bin/sh
+# la majorité de ce code proviens d'internet
 mkdir Archives_ratp
 cd Archives_ratp
 wget http://dataratp.download.opendatasoft.com/RATP_GTFS_LINES.zip -O temp.zip; unzip temp.zip; rm temp.zip;
@@ -11,7 +12,6 @@ do
     then
       unzip ../"$zip"
       cd ..
-      # rm -f $zip # Uncomment to delete the original zip file
     else
       echo "Could not unpack $zip - cd failed"
     fi
