@@ -12,3 +12,6 @@ station find_station(int id_search, station * reseau){
   station error;
   return error;
 }
+
+void transfert_possible(int id, int num_fichier, station* reseau) ;
+

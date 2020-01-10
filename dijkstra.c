@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "station.h"
 
 int main(void){
   int id_depart;
@@ -16,9 +17,9 @@ int main(void){
   b=find_station(id_arrivee,reseau);
   printf("id de votre station :");
   scanf("%d", &id_depart);
-  printf("\nid de l'arrivee :")
+  printf("\nid de l'arrivee :") ;
   scanf("%d", &id_arrivee);
-  printf("\nheure de départ :")
+  printf("\nheure de départ :") ;
   scanf("%d", &time);
   printf("\n");
   for(int i=0;i<25479;i++){
@@ -49,7 +50,7 @@ int main(void){
     visit[a]=1;
     time = time + timeplus;
   }
-  while(id_rev=!id_depart){
+  while(id_rev =!id_depart){
     b = find_station(id_arrivee,reseau);
     printf("%d",id_arrivee);
     id_arrivee = precedent[b];

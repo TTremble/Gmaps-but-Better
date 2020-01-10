@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "lecture.h"
 #include "station.h"
+#include "find_station.h"
 
 void update_aretes(int num_station ,int time, station* reseau)
 {
