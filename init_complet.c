@@ -1,3 +1,6 @@
+#ifndef INIT_COMPLET_C
+#define INIT_COMPLET_C
+
 #include <stdio.h>
 #include <dirent.h>
 #include <string.h>
@@ -40,3 +43,5 @@ void initialisation_trips_graphe(trip* trips)
     i++;
     }
 }
+
+#endif

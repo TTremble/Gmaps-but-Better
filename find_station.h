@@ -1,3 +1,6 @@
+#ifndef FIND_STATION_H
+#define FIND_STATION_H
+
 #include<stdio.h>
 #include<stdlib.h>
 #include "station.h"
@@ -13,3 +16,5 @@ int find_station(int id_search, station * reseau){
 }
 
 void transfert_possible(int id, int num_fichier, station* reseau) ;
+
+#endif

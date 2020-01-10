@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "lecture.h"
 #define IN_FILE_ERROR 1
+
 //permet de connaitre le nombre de lignes en tout dans le réseau
 int nombre_de_transports()
 {

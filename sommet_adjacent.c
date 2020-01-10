@@ -58,8 +58,8 @@ void update_aretes(int num_station ,int time, station* reseau)
             fscanf(fichier_stop_time, "%ld",&stop_id);
             fscanf(fichier_stop_time, ",%d,",&stop_sequence);
             temps_en_minutes = heure*60 + minutes ;
-            if (num_station == stop_id && temps_en_minutes >= heure && temps_en_minutes < *temps_proche )
-            {
+            // on cherche l'id quand est le prochain train pour la station suivante
+            if (num_station == stop_id && temps_en_minutes >= heure && temps_en_minutes < *temps_proche )           {
                 while ((d = fgetc(fichier_stop_time)) != '\n')
                 {
                 //On vient à la fin de la ligne
@@ -77,7 +77,7 @@ void update_aretes(int num_station ,int time, station* reseau)
                 temps_en_minutes_2 = heure*60 + minutes ;
                 b = find_station(stop_id, reseau);
                 star.arete[b] = temps_en_minutes_2 - time ; //on arriverait à cette station en ce temps, cela devient le poids de l'arête
-                marque = 1 ;
+                marque = 1 ; // si la marque vos un c'est qu'on est dans le bon dossier (ligne)
             }
             while ((d = fgetc(fichier_stop_time)) != '\n')
             {

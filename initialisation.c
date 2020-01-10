@@ -4,7 +4,8 @@
 #include"station.h"
 #include "lecture.h"
 #include"createstation.h"
-#include "init_complet.c"
+
+
 //cette fonction est celle qu'on appellera pour créer le graphe à l'état initial
 station * initialisation(void){
     station * reseau=malloc(25479*sizeof(station)); //création des stops
