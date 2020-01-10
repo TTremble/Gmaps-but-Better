@@ -1,11 +1,11 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
 #include "lecture.h"
 #include "station.h"
 #include "find_station.h"
-
+//fonction qui va actualiser les connexions d'une station lorsqu'elle est appelé, elle permet de créer les arêtes dont le dijkstra aura besoin
 void update_aretes(int num_station ,int time, station* reseau)
 {
     char d ;
@@ -25,19 +25,19 @@ void update_aretes(int num_station ,int time, station* reseau)
     int stop_sequence ;
     int temps_en_minutes ;
     int temps_en_minutes_2 ;
-    int *temps_proche ; 
+    int *temps_proche ;
     *temps_proche = 100000 ;
 
     station star = reseau[a] ;
     for (int j = 0 ; j< 25479; j++)
     {
-        star.arete[j] = 0 ;
+        star.arete[j] = 0 ; //on initialise toutes les arêtes à 0, ie on supprime toutes les connexions existantes avant d'en retrouver
     }
     FILE* fichier_stop_time = NULL ;
     while (i < max)
     {
         FILE* fichier = ouverture_stop_times_par_ligne(i) ;
-    
+
         while ((d = fgetc(fichier_stop_time)) != '\n')
             {
                 //On saute la première ligne
@@ -51,7 +51,7 @@ void update_aretes(int num_station ,int time, station* reseau)
             fscanf(fichier_stop_time,",%d:",&heure) ;
             fscanf(fichier_stop_time,"%d:",&minutes) ;
             fscanf(fichier_stop_time,"%d,",&seconde) ;
-            // On le double pour déplacé le curseur et on chage pas les variable puisque temps_arrivé = temps_depart 
+            // On le double pour déplacé le curseur et on chage pas les variable puisque temps_arrivé = temps_depart
             fscanf(fichier_stop_time,"%d:",&heure) ;
             fscanf(fichier_stop_time,"%d:",&minutes) ;
             fscanf(fichier_stop_time,"%d,",&seconde) ;
@@ -68,7 +68,7 @@ void update_aretes(int num_station ,int time, station* reseau)
                 fscanf(fichier_stop_time,",%d:",&heure) ;
                 fscanf(fichier_stop_time,"%d:",&minutes) ;
                 fscanf(fichier_stop_time,"%d,",&seconde) ;
-                // On le double pour déplacé le curseur et on chage pas les variable puisque temps_arrivé = temps_depart 
+                // On le double pour déplacé le curseur et on chage pas les variable puisque temps_arrivé = temps_depart
                 fscanf(fichier_stop_time,"%d:",&heure) ;
                 fscanf(fichier_stop_time,"%d:",&minutes) ;
                 fscanf(fichier_stop_time,"%d,",&seconde) ;
@@ -76,7 +76,7 @@ void update_aretes(int num_station ,int time, station* reseau)
                 fscanf(fichier_stop_time, ",%d,",&stop_sequence);
                 temps_en_minutes_2 = heure*60 + minutes ;
                 b = find_station(stop_id, reseau);
-                star.arete[b] = temps_en_minutes_2 - time ;
+                star.arete[b] = temps_en_minutes_2 - time ; //on arriverait à cette station en ce temps, cela devient le poids de l'arête
                 marque = 1 ;
             }
             while ((d = fgetc(fichier_stop_time)) != '\n')
@@ -90,6 +90,6 @@ void update_aretes(int num_station ,int time, station* reseau)
                 exit(0);
             }
         i ++ ;
-    }  
-    
+    }
+
 }
