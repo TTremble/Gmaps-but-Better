@@ -1,9 +1,10 @@
-#include <stdio.h> 
+#include <stdio.h>
 #include <dirent.h>
 #include <string.h>
 #include <stdlib.h>
 #include "station.h"
 #include "lecture.h"
+#include "createstation.h"
 
 void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
 {
@@ -17,7 +18,7 @@ void init_fichier_trips_one_file(FILE* fichier_trips, trip *trips)
     int shape_id ;
     int i = 0 ;
     int max = nombre_de_transports() ;
-    
+
     while ((d = fgetc(fichier_trips)) != '\n')
         {
             //On saute la première ligne

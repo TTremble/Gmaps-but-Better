@@ -2,12 +2,12 @@
 #include<stdlib.h>
 #include"station.h"
 
-station createstation(char * name,int id,long lat,long lon){
+station createstation(char * namea,int ida,long double lata,long double lona){
   station new;
-  new.stop_id = id;
-  new.stop_lat = lat;
-  new.stop_lon = lon;
-  new.stop_name = name;
+  new.id = ida;
+  new.lat = lata;
+  new.lon = lona;
+  new.name = namea;
   new.arete = malloc(25479);
   return new;
 };

@@ -2,10 +2,10 @@
 #include<stdlib.h>
 #include "station.h"
 
-station find_station(int id_search, station * reseau){
+int find_station(int id_search, station * reseau){
   for(int i=0;i<25479;i++){
     if(reseau[i].id=id_search){
-      return reseau[i];
+      return i;
     }
   }
   printf("ERROR NON EXISTANT");
@@ -14,4 +14,3 @@ station find_station(int id_search, station * reseau){
 }
 
 void transfert_possible(int id, int num_fichier, station* reseau) ;
-

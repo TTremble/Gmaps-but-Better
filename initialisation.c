@@ -4,6 +4,7 @@
 #include"station.h"
 #include "lecture.h"
 #include"createstation.h"
+#include "init_complet.c"
 
 int initialisation(void){
     station * reseau=malloc(25479*sizeof(station));

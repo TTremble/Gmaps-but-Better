@@ -1,18 +1,20 @@
 #include <stdio.h>
 #include "station.h"
+#include "initialisation.c"
+#include "sommet_adjacent.c"
 
 int main(void){
   int id_depart;
   int id_arrivee;
   int time;
-  int * dijkstra[25479];
-  int * visit[25479];
+  int dijkstra[25479];
+  int visit[25479];
   int a;
   int b;
   int * id_actuel;
   int * min;
   int timeplus;
-  int * precedent[25479];
+  int precedent[25479];
   reseau = initialisation();
   b=find_station(id_arrivee,reseau);
   printf("id de votre station :");
@@ -31,7 +33,7 @@ int main(void){
   dijkstra[id_depart]=0;
   *id_actuel=id_depart;
   while(visit[b]=0){
-    min = 999999;
+    *min = 999999;
     a = find_station(*id_actuel,reseau);
     update_aretes(*id_actuel,time,reseau);
     for(int i=0;i<25479;i++){
